@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+}
+.clear-div {
+  clear: both;
+}
+
+.container {
+  width: 90%;
+  background-color: rgb(165, 225, 225);
+  margin: 0 auto;
+  padding: 10px;
+}
+header {
+}
+.header-img {
+  float: left;
+  width: 100px;
+  height: 120px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+}
+.header-bio {
+  float: left;
+  padding: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #11999e;
+}
+.header-contact {
+  float: right;
+  padding: 30px;
+}
+.header-contact a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+.header-contact a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+.header-divide {
+  border: 3px solid black;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/** main satar  */
+
+/** personal_section start */
+.comon-hr {
+  border: 1px solid black;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+.personal_section {
+}
+.content {
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+.left-side {
+  float: left;
+  width: 30%;
+}
+
+.right-side {
+  float: right;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.hsc {
+  float: left;
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+footer a i {
+  font-size: 30px;
+  margin: 10px;
+}
